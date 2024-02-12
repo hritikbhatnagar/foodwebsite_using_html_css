@@ -1,0 +1,422 @@
+.box1{
+    width:99vw;
+    height:150px;
+    background-color: rgb(145, 157, 180);
+display:flex;
+gap:50px;
+justify-content: flex-end;
+box-shadow: 5px 6px 12px 13px;
+/* position: sticky; */
+}
+
+.box1:hover{
+    box-shadow: 5px 6px 12px 13px burlywood;
+
+}
+#t{
+    
+ text-decoration: underline wavy 9px olivedrab;
+}
+li{
+    list-style: none;
+  
+    font-family: 'Great Vibes', cursive;
+}
+.b{
+    font-size:20px;
+
+}
+li:hover{
+
+    color:chartreuse;
+    
+}
+*{
+    margin: 0px;
+}
+#t{
+    position: absolute;
+    font-size:60px;
+}
+@media screen and (min-width:421px) and (max-width:940px) {
+    .b{
+        /* text-align: center; */
+        position: relative;
+       top:110px;
+
+    }
+    .box1{
+        gap:20px;
+    }
+    
+}
+@media screen and (max-width:455px)
+{
+    .box1{
+        flex-direction: column;
+        align-items: flex-end;
+        gap:10px;
+
+       
+    }
+    .b{
+        position: relative;
+        top:0px;
+        font-size: 15px;
+    }
+    #t{
+        font-size: 40px;
+    }
+}
+.box2{
+    width:100vw;
+    height:800px;
+background-image: url("images/baked-goods-1853261_1280.jpg");
+/* background-repeat: no-repeat; */
+
+    
+}
+.ty{
+   position: relative;
+   top:33px;
+   font-size:40px;
+   text-decoration: underline;
+   text-decoration-color: orangered;
+}
+
+.tiy{
+    position: relative;
+   font-size:39px;
+   color: blueviolet;
+top:60px;
+}
+#iy{
+    position: relative;
+    top:100px;
+    margin-left: 23px;
+    background-color: rgb(243, 239, 5);
+    border-radius: 23px;
+    width:120px;
+    height:50px;
+}
+
+@media screen and  (min-width:470px) and (max-width:641px){
+    .ty{
+      
+        top:12px;
+        font-size:30px;
+        
+     }
+     .tiy{
+       
+       font-size:20px;
+    top:30px;
+    }
+    #iy{
+      
+        top:60px;
+        margin-left: 23px;
+       
+    }
+
+    
+}
+
+@media screen and (max-width:470px){
+    
+    .ty{
+      
+        top:12px;
+        font-size:20px;
+        
+     }
+     .tiy{
+       
+       font-size:15px;
+    top:30px;
+    }
+    #iy{
+      
+        top:50px;
+        margin-left: 23px;
+        width:90px;
+        height:40px; 
+       
+    }
+}
+.box3{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:12px;
+    height:900px;
+    background-image: url("https://images.pexels.com/photos/9176068/pexels-photo-9176068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    align-content: center;
+}
+.cook{
+    width:380px;
+    height:320px;
+
+}
+.cook:hover{
+    box-shadow: 6px 6px 8px 4px chartreuse;
+    transform:scale(1.1,1.1);
+}
+
+@media  screen and (min-width:520px) and (max-width:1179px) {
+    .cook{
+  width:250px;
+  height:230px;
+    }
+    
+    
+}
+@media screen and (min-width:320px) and  (max-width:520px) {
+    .cook{
+        width:155px;
+        height:150px;
+    }
+    
+}
+@media screen and (max-width:320px)
+{
+.cook{
+    width:100px;
+    height:100px;
+}    
+}
+.box4{
+   text-align: center;
+   /* box-sizing: border-box; */
+    width:100vw;
+    height:100px;
+   background-color: bisque;
+
+}
+.q{
+    font-size:43px;
+}
+.w{
+  padding-left: 23px;
+  padding-right: 32px;
+}
+.box5{
+    width:100vw;
+    height:600px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.t1{
+    width:300px;
+    height:500px;
+    /* background-color: brown; */
+    border:3px solid yellow;
+   margin:5px;
+   border-top-left-radius: 45px;
+   border-bottom-right-radius: 45px;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:12px; */
+}
+.jack{
+    width:100%;
+    height:70%;
+}
+.t1:hover{
+border: 4px dashed red;
+border-radius: 0px;
+}
+.mik{
+    text-align: center;
+    font-weight: 900;
+    font-size: 23px;
+}
+.tik{
+    text-align: center;
+    font-size:16px;
+}
+@media screen and  (min-width:860px) and (max-width:1260px)
+{
+    .t1{
+        width:200px;
+    height:350px;
+    }
+    .jack{
+        width:100%;
+        height:70%;
+    }
+    .mik{
+        
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .tik{
+        
+        font-size:13px;
+    }
+}
+@media screen and (min-width:270px) and (max-width:860px)
+{
+    .t1{
+        width:120px;
+    height:200px;
+    }
+    .jack{
+        width:100%;
+        height:70%;
+    }
+    .mik{
+        
+        font-weight: 900;
+        font-size: 9px;
+    }
+    .tik{
+        
+        font-size:9px;
+    }
+}
+@media screen and (max-width:270px)
+{
+    .t1{
+        width:80px;
+    height:120px;
+    }
+    .jack{
+        width:100%;
+        height:50%;
+    }
+    .mik{
+        
+        font-weight: 900;
+        font-size: 5px;
+    }
+    .tik{
+        
+        font-size:5px;
+    }
+}
+@media  screen and (min-width:284px) and (max-width:437px) {
+    .q{
+font-size:12px;
+
+    }
+ .w{
+    font-size:15px;
+ }   
+}
+@media  screen and (max-width:284px){
+    .q{
+font-size:9px;
+
+    }
+ .w{
+    font-size:10px;
+ }   
+}
+
+.box6{
+    width:100vw;
+    height:100px;
+    background-color: white;
+  
+
+}
+.man{
+    text-align: center;
+    
+    font-size:49px;
+}
+.r{
+    position: absolute;
+    width:50px;
+    height:50px;
+    text-align: center;
+    margin-left: 23px;
+  
+}
+@media screen and (max-width:405px)
+{
+    .man{
+        font-size:20px;
+    }
+}
+
+.box7{
+    width:100vw;
+    height:300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f1{
+    /* border: 2px solid red; */
+    padding:34px;
+    width:300px;
+
+    
+}
+.l{
+    text-align: center;
+}
+.kj:hover{
+    cursor: pointer;
+   
+}
+.gym1:hover{
+    background-color: cadetblue;
+}
+.gym2:hover{
+    background-color: cornflowerblue;
+}
+.gym3:hover{
+    background-color: coral;
+}
+.gym4:hover{
+    background-color: rgb(233, 76, 108);
+}
+
+@media screen  and (min-width:470px) and  (max-width:720px){
+    .f1{
+        /* border: 2px solid red; */
+        padding:15px;
+        width:200px;
+       
+    
+        
+    }
+    
+}
+@media screen  and  (max-width:475px){
+.l{
+    font-size:15px;
+}
+.f1{
+    /* border: 2px solid red; */
+    padding:10px;
+   
+
+    
+}
+}
+.joe{
+    text-align: center;
+    font-size:23px;
+    font-family: 'Allura', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Honk', system-ui;
+font-family: 'Protest Revolution', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Zeyada', cursive;
+}
+.box8{
+    width:100vw;
+    background-color: white;
+}
